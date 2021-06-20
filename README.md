@@ -3,7 +3,7 @@
 ## Summary
 
 This repository contains the tensorflow implementation of Cross-Domain Adaptation for Classification model.
-Here we use the PACS dataset which can be downloaded from [here] (https://drive.google.com/drive/folders/1SKvzI8bCqW9bcoNLNCrTGbg7gBSw97qO)
+Here we use the PACS dataset which can be downloaded from [here](https://drive.google.com/drive/folders/1SKvzI8bCqW9bcoNLNCrTGbg7gBSw97qO)
 
 The PACS dataset contains images from 4 domains, namely Image, Art painting, Sketch and Carton with 7 classes. We treat the Sketch domain as target dataset and other three domains as source dataset.
 
