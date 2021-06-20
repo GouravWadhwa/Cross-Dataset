@@ -47,5 +47,5 @@ Following are the hyperparameters for training
 * λ_3 = 0.1
 
 Validation Accuracy - 91.92%
-Testing Accuracy - 85%
+Testing Accuracy - 82%
 
