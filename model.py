@@ -11,6 +11,7 @@ class Model () :
 
         x = self.base_model (inputs, training=False)
         x = tf.keras.layers.Flatten () (x)
+        x = tf.keras.layers.Dropout (0.4) (x)
         x = tf.keras.layers.Dense (7) (x)
         x = tf.keras.layers.Softmax () (x)
 
