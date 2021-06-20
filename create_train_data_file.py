@@ -16,6 +16,7 @@ unlabelled_files = []
 
 train_file = open ('train_file.txt', 'w+')
 val_file = open ('val_file.txt', 'w+')
+test_file = open ('test_file.txt', 'w+')
 
 for root, dirs, files in os.walk ("PACS/") :
     for file in files :
@@ -38,3 +39,4 @@ for data in labelled_files :
 
 for data in unlabelled_files :
     train_file.write (data)
+    test_file.write (data)
