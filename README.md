@@ -35,9 +35,7 @@ python train.py
 
 ## Testing
 
-Please find the pretrained model from [here](https://drive.google.com/drive/folders/1pG8p8AtByBIMBhDoTvhT_kGdpgG2hDwF?usp=sharing)
-
-For finding the testing accuracy run the following code:
+Please find the pretrained model from [here](https://drive.google.com/drive/folders/1pG8p8AtByBIMBhDoTvhT_kGdpgG2hDwF?usp=sharing). Add these checkpoints inside the directory "Training/training_checkpoints" and run the following code for finding the training accuracy on the target domain.
 
 ```bash
 python test.py
