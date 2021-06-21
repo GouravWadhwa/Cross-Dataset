@@ -52,5 +52,5 @@ Following are the hyperparameters for training
 
 Validation Accuracy - 91.92%
 
-Testing Accuracy - 82%
+Testing Accuracy - 85.72%
 
