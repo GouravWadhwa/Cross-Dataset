@@ -19,7 +19,7 @@ git clone https://github.com/GouravWadhwa/Cross-Dataset.git
 cd Hypergraphs-Image-Inpainting
 ```
 
-## Training and Testing
+## Training
 
 For generating the training (train_file.txt), the validation (val_file.txt), and the  testing (test_file.txt) sets run the following code:
 
@@ -32,6 +32,10 @@ For training a new model run the following code:
 ```bash
 python train.py
 ```
+
+## Testing
+
+Please find the pretrained model from [here](https://drive.google.com/drive/folders/1pG8p8AtByBIMBhDoTvhT_kGdpgG2hDwF?usp=sharing)
 
 For finding the testing accuracy run the following code:
 
@@ -47,5 +51,6 @@ Following are the hyperparameters for training
 * λ_3 = 0.1
 
 Validation Accuracy - 91.92%
+
 Testing Accuracy - 82%
 
