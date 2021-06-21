@@ -17,7 +17,7 @@ from dataloader import TestDataset
 def test (test_dataset) :
     test_accuracy = 0
 
-    for data in tqdm (test_dataset) :
+    for n, data in tqdm (enumerate (test_dataset)) :
         (x, y) = data
         
         prediction = model (x)
@@ -27,7 +27,7 @@ def test (test_dataset) :
         if prediction == y :
             test_accuracy += 1
 
-    print ("Testing Accuracy =", test_accuracy)
+    print ("Testing Accuracy =", test_accuracy / (n+1))
 
 test_dataset = TestDataset ()
 
